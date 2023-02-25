@@ -1,0 +1,6 @@
+import re
+def rem(string):
+    print(re.sub("[aeiouAEIOU]","",string))
+
+string ="omkar sanjay MOhitE"
+(rem(string))
